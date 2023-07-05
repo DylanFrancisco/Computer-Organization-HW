@@ -1,0 +1,12 @@
+---
+:id: 176937904
+:submitters:
+- :name: Dylan Francisco
+  :email: dylanfr@unc.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-04-24 20:14:26.216177000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-04-24 13:14:26.216177000 Z
+:status: processed
+:score: 10.0

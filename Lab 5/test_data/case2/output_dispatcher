@@ -1,0 +1,69 @@
+----initial tasks----
+(7)[ 1:5:10:0.50 2:16:20:0.80 3:8:30:0.27 4:1:40:0.03 5:99:50:1.98 6:1:60:0.02 0:26:70:0.37 ]
+----insert task----
+insert task{6:0} at index 0 with 80 cycles
+(7)[ 1:5:10:0.50 2:16:20:0.80 3:8:30:0.27 4:1:40:0.03 5:99:50:1.98 6:1:60:0.02 0:26:70:0.37 ]
+----set task----
+set task {pid:1} to index 0
+(7)[ 1:5:10:0.50 2:16:20:0.80 3:8:30:0.27 4:1:40:0.03 5:99:50:1.98 6:1:60:0.02 0:26:70:0.37 ]
+----get task----
+task at index 4: pid=5 priority=99 remaining cycles=50
+---schedule----
+(7)[ 6:1:60:0.02 4:1:40:0.03 3:8:30:0.27 2:16:20:0.80 5:99:50:1.98 1:5:10:0.50 0:26:70:0.37 ]
+----remove_task----
+remove task pid=6
+(6)[ 4:1:40:0.03 3:8:30:0.27 2:16:20:0.80 5:99:50:1.98 1:5:10:0.50 0:26:70:0.37 ]
+----swap task----
+swap task: pid=6 <-> pid=-1430255888
+(6)[ 4:1:40:0.03 3:8:30:0.27 2:16:20:0.80 5:99:50:1.98 1:5:10:0.50 0:26:70:0.37 ]
+----dispatch tasks----
+Task 4 run for 5 cycles(s).
+Task 4 run for 5 cycles(s).
+Task 4 run for 5 cycles(s).
+Task 4 run for 5 cycles(s).
+Task 4 run for 5 cycles(s).
+Task 4 run for 5 cycles(s).
+Task 4 run for 5 cycles(s).
+Task 4 run for 5 cycles(s).
+Task 4 Completed.
+Task 3 run for 5 cycles(s).
+Task 3 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 3 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 1 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 3 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 3 run for 5 cycles(s).
+Task 2 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 1 run for 5 cycles(s).
+Task 1 Completed.
+Task 0 run for 5 cycles(s).
+Task 2 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 3 run for 5 cycles(s).
+Task 3 Completed.
+Task 2 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 2 run for 5 cycles(s).
+Task 2 Completed.
+Task 5 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 0 run for 5 cycles(s).
+Task 0 Completed.
+Task 5 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 5 run for 5 cycles(s).
+Task 5 Completed.
